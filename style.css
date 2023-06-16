@@ -1,0 +1,95 @@
+
+* {
+    font-family: 'Marcellus', serif;      
+}
+
+@media (max-width:768px) {
+    header {
+        height: 200px;
+        padding: 20px;
+      }
+}
+
+body {
+    background-image: url("https://i.ibb.co/j56ZYqM/wepik-export-20230614192020tp-SW.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 36px;
+}
+
+.title {
+    color:#6f563d;
+    background: linear-gradient( #efcfae, #e8b9a6);
+    height: fit-content;
+    padding: 30px;
+    
+}
+
+.title p {
+    text-align: center;
+    margin-top: 0;
+}
+  
+  section {
+    margin: 0 auto;
+    display: block;
+    max-width: 1024px;
+    width: 100%;
+    padding: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #efceae80;
+  }
+  
+
+  .card {
+    display: inline-block;
+    margin: 10px;
+    margin-left: 10px;
+    background-color: #efcfae;
+    vertical-align: top;
+    max-height: 100%;
+    padding: 5px;
+    border: #987b5e 3px dotted;
+    box-shadow: 0 2px 2px 0 #957f68;
+  }
+  
+.card img {
+    display: block;
+    width: 300px;
+    height: 300px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  
+  .card details {
+    width: 300px;
+    height: auto;
+    display: inline-block;
+  }
+  
+  .card details summary {
+    font-size: 16px;
+    color:#655442;
+    padding: 10px;
+  }
+  
+  .card details p {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+  
+  .card details blockquote {
+    color: #ffffff;
+    font-style: italic;
+  }
+
+  
+  
