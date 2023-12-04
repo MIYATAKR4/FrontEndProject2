@@ -1,81 +1,89 @@
 function carregaDict() {
-  var bios = {
-    bio1: {
-      nome: "Angela Davis",
-      imagem: "https://i.postimg.cc/LJ6SF21r/angela-davis.png",
+  var books = {
+    book1: {
+      nome: "A menina do outro lado",
+      imagem: "https://i.postimg.cc/HkRqm2b3/totsukuni.jpg",
       descricao:
-        "Angela Yvonne Davis é uma renomada professora e filósofa socialista norte-americana que ganhou destaque em todo o mundo na década de 1970. Ela se tornou conhecida como membro do Partido Comunista dos Estados Unidos e dos Panteras Negras, devido ao seu ativismo incansável em prol dos direitos das mulheres e contra a discriminação social e racial nos Estados Unidos. Além disso, Angela Davis ficou famosa por ser uma figura central em um dos julgamentos criminais mais controversos e célebres da história recente dos Estados Unidos.",
-      citação:
-        "Não aceito mais as coisas que não posso mudar, estou mudando as coisas que não posso aceitar.",
+        "A Menina do Outro Lado é uma fábula sobre a criação do afeto e o amor entre duas criaturas tão diferentes, mas com muito a compartilhar. Uma trama atual sobre a condição do diferente e da falta de aceitação. Sobre largar seus medos e enfrentar a vida com um novo olhar.",
+      citacao:
+        "Você me aceitou do jeito que eu era. Como eu poderia não fazer o mesmo por você?",
+      autor: "Nagabe",
     },
 
-    bio2: {
-      nome: "Carolina Maria de Jesus",
-      imagem: "https://i.postimg.cc/Fdc5VKMJ/carolina-de-jesus.png",
+    book2: {
+      nome: "A cegueira iminente de Billie Scott",
+      imagem: "https://i.postimg.cc/LXR0405k/billie-scott.jpg",
       descricao:
-        "Carolina Maria de Jesus foi uma renomada escritora brasileira, reconhecida principalmente pelo seu livro Quarto de Despejo: Diário de uma Favelada, publicado em 1960. Ela é considerada uma das primeiras e mais importantes escritoras negras do Brasil. Durante grande parte de sua vida, a autora residia na favela do Canindé, localizada na zona norte de São Paulo, e sustentava a si mesma e seus três filhos como catadora de papel. Em 1958, seu diário foi publicado com o título Quarto de Despejo, com a colaboração do jornalista Audálio Dantas. O livro alcançou um enorme sucesso e foi traduzido para catorze idiomas diferentes.",
+        "Billie é uma jovem artista solitária e socialmente ansiosa, distante de sua família e vivendo em acomodações estudantis simples. Ela recebe uma oportunidade que pode mudar sua vida ao ser convidada a expor suas pinturas em uma galeria daqui a alguns meses. Pouco tempo depois, um incidente infeliz acontece enquanto ela busca inspiração para sua exposição, resultando em uma retina deslocada. Ela recebe a notícia que mudará sua vida: ficará completamente cega em questão de duas semanas. Embora fique compreensivelmente arrasada ao receber essa notícia, Billie decide sair pelo mundo e pintar retratos de dez pessoas interessantes para sua exposição. O livro narra sua jornada, à medida que ela encontra pessoas de diferentes origens, cria suas pinturas para sua estreia (e possivelmente última) exposição, enquanto enfrenta a realidade iminente de sua cegueira.",
       citacao:
-        "Ah, comigo o mundo vai modificar-se. Não gosto do mundo como ele é.",
+      "Essa jornada nunca foi sobre a minha cegueira.",
+      autor: "Zoe Thorogood",
     },
     
-    bio3: {
-      nome: "Conceição Evaristo",
-      imagem: "https://i.postimg.cc/Z9XzNNMS/conceicao-evaristo.png",
+    book3: {
+      nome: "É solitário no centro da terra",
+      imagem: "https://i.postimg.cc/bYmF8ghb/its-lonely.jpg",
       descricao:
-        "Maria da Conceição Evaristo de Brito nasceu em 1946 em Belo Horizonte. Vinda de uma família de origem humilde, ela se mudou para o Rio de Janeiro na década de 1970. Formou-se em Letras pela UFRJ e dedicou-se ao ensino na rede pública da capital fluminense. Além disso, obteve o título de Mestre em Literatura Brasileira pela PUC do Rio de Janeiro, com a dissertação intitulada Literatura Negra: uma poética de nossa afro-brasilidade (1996). Posteriormente, concluiu seu doutorado em Literatura Comparada na Universidade Federal Fluminense, com a tese Poemas malungos, cânticos irmãos (2011). Nessa pesquisa, Maria da Conceição Evaristo estuda as obras poéticas dos afro-brasileiros Nei Lopes e Edimilson de Almeida Pereira, em contraponto à obra do angolano Agostinho Neto.",
+        "A cartunista Zoe Thorogood registra 6 meses de sua própria vida enquanto ela desmorona em uma tentativa desesperada de colocá-la de volta nos eixos da única maneira que ela conhece. 'É Solitário no Centro da Terra' é uma visão íntima e metanarrativa da vida de uma artista egoísta que deve criar para sua própria sobrevivência.",
       citacao:
-        "O importante não é ser o primeiro ou primeira, o importante é abrir caminhos.",
+        "Alguém, em algum lugar, neste exato momento, está sendo afetado pela sua existência.",
+        autor: "Zoe Thorogood",
     },
     
-    bio4: {
-      nome: "Lélia Gonzalez",
-      imagem: "https://i.postimg.cc/2q1f3GTG/lelia-gonzalez.png",
+    book4: {
+      nome: "O livro dos pássaros",
+      imagem: "https://i.postimg.cc/RFMXx6pX/livro-dos-passaros.jpg",
       descricao:
-        "Lélia Gonzalez foi uma intelectual, política, professora e antropóloga brasileira.Ajudou a fundar instituições como o Movimento Negro Unificado(MNU), o Instituto de Pesquisas das Culturas Negras(IPCN), o Coletivo de Mulheres Negras N'Zinga e o Olodum.Sua militância em defesa da mulher negra levou- a ao Conselho Nacional dos Direitos da Mulher(CNDM), no qual atuou de 1985 a 1989. Foi candidata a deputada federal pelo PT, elegendo- se primeira suplente.Nas eleições seguintes, em 1986, candidatou - se a deputada estadual pelo PDT, novamente elegendo - se suplente.",
+      "O Roberto é um Sabiá que não aguentou a pressão de ser um pássaro livre. Ele também queria comprar a sua própria TV Smart. Assim, ele acaba arranjando um emprego na Catch.co, uma startup 'Great Place to Work', descoladona e inovadora. O patrão é um gato esfomeado, mas o fato de ele contratar apenas pássaros deve ser mera coincidência...",
       citacao:
-        "A gente não nasce negro, a gente se torna negro. É uma conquista dura, cruel e que se desenvolve pela vida da gente afora.",
+        "'Você não acha que a vida deveria ser mais do que isso?' 'Nah, só issso está ótimo.'",
+      autor: "Lark",
     },
 
-    bio5: {
-      nome: "Marielle Franco",
-      imagem: "https://i.postimg.cc/8fS8KSGX/marielle-franco.png",
+    book5: {
+      nome: "Vidas Imperfeitas",
+      imagem: "https://i.postimg.cc/9QZp4tvL/juno.jpg",
       descricao:
-        "Marielle Francisco da Silva, conhecida como Marielle Franco, foi uma socióloga, feminista, militante dos direitos humanos e política brasileira. Filiada ao Partido Socialismo e Liberdade (PSOL), elegeu-se vereadora do Rio de Janeiro para a Legislatura 2017-2020, durante a eleição municipal de 2016, com a quinta maior votação. Crítica da intervenção federal no Rio de Janeiro e da Polícia Militar, denunciava constantemente abusos de autoridade por parte de policiais contra moradores de comunidades carentes. Em 14 de março de 2018, foi assassinada a tiros.",
+        "Juno Omura não é uma garota como outra qualquer e todos a conhecem por ser violenta, impaciente e impulsiva, o que afasta as pessoas dela. Entretanto, existe muito mais dentro dela do que se pode imaginar, cabendo apenas a Daniel descobrir os motivos de sua atitude e seu tenebroso passado. Uma história sobre amor, amizade, família e liberdade.",
       citacao:
-        "Quantos mais vão precisar morrer para que essa guerra aos pobres acabe?",
+        "Não importa quanto tempo passe, e nem mesmo o quão perdido você esteja, são as pessoas que escolheram estar ao nosso lado que fazem a vida valer a pena.",
+      autor: "Mary Cagnin"
     },
 
-    bio6: {
-      nome: "Rosa Parks",
-      imagem: "https://i.postimg.cc/K1q2Zw74/rosa-parks.png",
+    book6: {
+      nome: "A Diferença Invisível",
+      imagem: "https://i.postimg.cc/MGYm5ZZR/alt.jpg",
       descricao:
-        "Rosa Louise McCauley, mais conhecida como Rosa Parks, foi uma costureira negra norte-americana que se tornou um símbolo importante do movimento dos direitos civis dos negros nos Estados Unidos. No dia 1º de dezembro de 1955, Rosa Parks ficou famosa por se recusar veementemente a ceder seu lugar no ônibus a um passageiro branco. Esse ato corajoso foi o estopim para o movimento conhecido como boicote aos ônibus de Montgomery, que marcou o início da luta contra a segregação racial nos Estados Unidos. A ação de Rosa Parks se tornou um marco histórico e um exemplo poderoso de resistência e determinação na luta pelos direitos civis.",
+        "Marguerite tem 27 anos, e aparentemente nada a diferencia das outras pessoas. É bonita, vivaz e inteligente. Trabalha numa grande empresa e mora com o namorado. No entanto, ela é diferente. Marguerite se sente deslocada e luta todos os dias para manter as aparências. Sua rotina é sempre a mesma, e mudanças de hábito não são bem-vindas. Seu ambiente precisa ser um casulo. Ela se sente agredida pelos ruídos e pelo falatório incessante dos colegas. Cansada dessa situação, ela sai em busca de si mesma e descobre que tem um Transtorno do Espectro Autista – a síndrome de Asperger. Sua vida então se altera profundamente.",
       citacao:
-        "Você nunca deve ter medo do que está fazendo quando está certo.",
+        "As dificuldades de Marguerite permanecem as mesmas, mas foi a forma de enxergá-las que mudou completamente.",
+      autor: "Mademoiselle Caroline e Julie Dachez",
     },
   };
 
   var content = document.getElementById("content");
 
-  for (var bio in bios) {
+  for (var book in books) {
 
     content.innerHTML +=
       '<div class="card">' +
       '<img class="sepia" src="' +
-      bios[bio].imagem +
+      books[book].imagem +
       '"/>' +
       "<details>" +
       "<summary>" +
-      bios[bio].nome +
+      books[book].nome +
       "</summary>" +
       "<p>" +
-      bios[bio].descricao +
+      books[book].descricao +
       "</p>" +
       "<blockquote><q>" +
-      bios[bio].citacao +
+      books[book].citacao +
       "</q></blockquote>" +
+      "<p>Autor: " + 
+      books[book].autor + 
+      "</p>" +
       "</details></div>";
-
   }
 }
 

@@ -10,7 +10,7 @@
 }
 
 body {
-  background-image: url("https://i.ibb.co/j56ZYqM/wepik-export-20230614192020tp-SW.png");
+  background-image: url("https://i.postimg.cc/g2Z5RzQb/abstract-textured-backgound-1258-30707.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -22,10 +22,15 @@ body {
 }
 
 h1 {
-  text-transform: uppercase;
-  text-align: center;
   margin-bottom: 0;
-  font-size: 36px;
+  padding-left: 5px;
+}
+
+header {
+  background-color: #a97dd8;
+  border-radius: 5px 5px 5px 5px;
+  height: 100px;
+  padding-top: 20px;
 }
 
 @media (max-width: 768px) {
@@ -36,17 +41,16 @@ h1 {
 }
 
 .title {
-  color: #6f563d;
-  background: linear-gradient(#efcfae, #e8b9a6);
+  color: #C8B8D9;
+  background: linear-gradient(#7139BF, #602EA6);
+  border-radius: 0px 0px 5px 5px;
   height: fit-content;
-  padding: 20px;
-  margin-bottom: 20px;
-
+  padding: 2px;
 }
 
 .title p {
-  text-align: center;
   margin-top: 0;
+  padding-left: 5px;
 }
 
 section {
@@ -57,7 +61,7 @@ section {
   padding: 50px;
   margin-top: 50px;
   margin-bottom: 50px;
-  background-color: #5b473480;
+  background-color: #eadef710;
 }
 
 @media (max-width: 768px) {
@@ -71,12 +75,12 @@ section {
   display: inline-block;
   margin: 10px;
   margin-left: 10px;
-  background-color: #bb9a78;
+  background-color: #000000;
   vertical-align: top;
   max-height: 100%;
   padding: 5px;
-  border: #7c654d 3px dotted;
-  box-shadow: 0 2px 2px 0 #957f68;
+  border: #ba4afa 4px inset;
+  box-shadow: 0 2px 2px 0 #000000;
 }
 
 @media (max-width: 768px) {
@@ -95,7 +99,7 @@ section {
 
 .sepia:hover {
   filter: sepia(70%);
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 @media (max-width: 768px) {
@@ -118,7 +122,7 @@ section {
 
 .card details summary {
   font-size: 16px;
-  color: #fdeddc;
+  color: #dcfdde;
   padding: 10px;
 }
 
@@ -130,7 +134,8 @@ section {
 
 .card details p {
   font-size: 14px;
-  padding: 0 10px;
+  padding: 10px;
+  color: #ffffff;
 }
 
 .card details blockquote {
